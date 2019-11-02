@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
   </head>
   {% with messages = get_flashed_messages() %}
   {% if messages %}
@@ -13,8 +14,10 @@
   {% endif %}
   {% endwith %}
   <body>
+    <div class=body>
     {% block header %}{% endblock %}
     {% block body %}{% endblock %}
+    </div>
     {% block footer %}
       <footer>
         <h4>Page created by ©Team HotCacao</h4>
