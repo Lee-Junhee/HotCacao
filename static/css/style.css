@@ -11,6 +11,7 @@
 
 html {
 	background-color: #432818;
+	font-family: cursive;
 }
 
 ul {
@@ -20,6 +21,7 @@ ul {
 
 footer {
 	background-color: #BB9457;
+	color: black;
 	position: absolute;
 	bottom: 5px;
 	left: 5px;
@@ -37,6 +39,7 @@ h5 {
 input[type="submit"] {
 	background-color: #BB9457;
 	border-color: #432818;
+	font-family: cursive;
 	padding: 5px;
 	margin: 5px;
 	color: black;
@@ -44,6 +47,15 @@ input[type="submit"] {
 
 input[type="text"] {
 	background-color: #6F1D1B;
+	font-family: cursive;
+	padding: 5px;
+	border-color: #432818;
+	color: white;
+}
+
+textarea {
+	background-color: #6F1D1B;
+	font-family: cursive;
 	padding: 5px;
 	border-color: #432818;
 	color: white;
@@ -51,6 +63,7 @@ input[type="text"] {
 
 button {	
 	background-color: #BB9457;
+	font-family: cursive;
 	border-color: #432818;
 	padding: 5px;
 	margin: 5px;
@@ -58,5 +71,5 @@ button {
 }
 
 ul {
-	color: #99582A;
+	color: #3f1514;
 }
